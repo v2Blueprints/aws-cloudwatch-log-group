@@ -1,0 +1,17 @@
+{
+	"identifier": "aws-cloudwatch-log-group",
+	"about": {
+		"title": "Cloudwatch Log Groups",
+		"explanation": "Cloudwatch Log Groups"
+	},
+	"compute_service": {
+		"default": {
+			"identifier": "container_service"
+		}
+	},
+	"configuration": {
+		"name": "^^binding-identifier^^",
+		"retention_in_days": 7,
+		"kms_key_id" : ""		
+	}
+}
